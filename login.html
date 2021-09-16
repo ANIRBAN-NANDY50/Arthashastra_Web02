@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+<style>
+     *{
+         box-sizing: 23px auto;
+     }  
+     body {
+            font-family: 'Ubuntu', sans-serif;
+            text-align: center;
+        }
+    .container{
+        width: 400px;
+        height: 500px;
+        border: 3px solid rgb(208, 233, 233);
+        background-color: rgba(200, 222, 226, 0.5);
+        margin: 33px auto;
+        text-align: justify;
+    }
+    .background{
+        background-image: url(https://www.aitpune.com/images/gallery/auditorium.jpg);
+    }
+    .box-item{
+        margin-top: 10%;
+        text-align: center;
+        color: black;
+        font-weight: bold;
+    }
+    .input-item{
+        margin-top: 15%;
+        margin-left:20%;
+        box-sizing: content-box;
+        max-width: 90%;
+        font-size: 15px;
+        font-style:inherit;
+        padding: 0;
+        }
+    .button{
+        height: 40px;
+        width:60px;
+        background-color: rgb(44, 197, 31);
+        padding: 5px 10px;
+        font-size: 12pt;
+    }
+    .button:hover{
+        color: rgb(255, 17, 0);
+        background-color: rgb(248, 245, 245);
+        cursor: pointer;
+    }
+   .input-box{
+    height: 20px;
+    font-size: 10pt;
+    width:240px ;
+    display: inline;
+    margin-inline-end:20%;
+   margin-top: 2%;
+   }
+   .login-icon{
+       width: 130px;
+       height: 80px;
+      opacity: 0.6;
+   }
+   .icons{
+       width: 30px;
+       height:30px;
+       display: inline;
+       margin-inline-end: 5%;
+       
+   }
+</style>
+</head>
+<body class="background">
+    <div><h2>LOGIN ACCOUNT</h2></div>
+  <div class="container">
+      <div class="box-item"><img class="login-icon" src="https://img.flaticon.com/icons/png/512/295/295128.png?size=1200x630f&pad=10,10,10,10&ext=png&bg=FFFFFFFF"><h3>LOGIN </h3></div>
+    <div class="input-item">
+    <input class="input-box" type="text" placeholder="Username" size="30px">  <img class="icons" src="https://icon-library.com/images/android-user-icon/android-user-icon-7.jpg">
+    <input class="input-box" type="password" placeholder="Password"size="30px"> <img class="icons" src="https://www.clipartmax.com/png/middle/51-514725_download-227-free-key-icons-here-circle.png"><br>
+      <input type="checkbox" checked="checked">Remember Me</input><br><br>
+      <button class="button">Login</button>&nbsp;
+      <a href="">Forgot Password?</a>
+    </div>
+  </div>
+    
+</body>
+</html>
